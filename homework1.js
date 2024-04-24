@@ -1,7 +1,5 @@
 // task #1:
 
-let name;
-
 function greeting(name){
     console.log('Hello, ' + name);
 }
