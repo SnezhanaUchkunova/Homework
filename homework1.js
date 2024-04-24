@@ -8,8 +8,8 @@ greeting('Snezhka');
 // task #2:
 
 let areYouYoung = (age) => {
-    return age < 40
-};
+    return age < 40;
+}
 console.log(areYouYoung(20));
 
 // task 3:
