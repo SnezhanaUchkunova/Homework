@@ -8,18 +8,18 @@ greeting('Snezhka');
 // task #2:
 
 let areYouYoung = (age) => {
-    console.log(age < 40)};
-
-areYouYoung(20);
+    return age < 40
+};
+console.log(areYouYoung(20));
 
 // task 3:
 
 let beYoung = (age) => {
     if (age < 40) {
-        console.log(age);
+        return age;
     }
     else if (age => 40){
-        console.log(age - 20);
+        return age - 20;
     }
 }
-beYoung(50);
+console.log(beYoung(50));
