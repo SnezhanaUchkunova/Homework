@@ -9,8 +9,6 @@ greeting('Snezhka');
 
 // task #2:
 
-let age;
-
 let areYouYoung = (age) => {
     console.log(age < 40)};
 
